@@ -1,0 +1,68 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #e8ecf5, #f7f7fa);
+      padding: 30px 10px;
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #1a237e;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .portal-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid #e3e6ee;
+    }
+
+    .portal-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    }
+
+    .portal-card h2 {
+      margin-bottom: 8px;
+      font-size: 22px;
+      color: #0d47a1;
+    }
+
+    .portal-card p {
+      margin-bottom: 12px;
+      color: #444;
+      font-size: 15px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 8px 14px;
+      background: #1a73e8;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background 0.2s ease;
+    }
+
+    a:hover {
+      background: #0d5ecb;
+    }
